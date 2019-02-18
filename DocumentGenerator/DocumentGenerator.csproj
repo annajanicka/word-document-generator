@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <PackageId>WordDocumentGenerator</PackageId>
+    <Authors>Anna Janicka</Authors>
+    <Description>The library allows to generate .*docx document based on the provided *.docx template and model.</Description>
+    <Copyright>Anna Janicka</Copyright>
+    <PackageTags>word, worddocument</PackageTags>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <RepositoryUrl>https://github.com/annajanicka/word-document-generator</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <Company />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.8.1" />
+    <PackageReference Include="Open-Xml-PowerTools" Version="4.4.0" />
+  </ItemGroup>
+
+</Project>
